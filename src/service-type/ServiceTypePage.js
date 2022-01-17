@@ -31,7 +31,7 @@ const ServiceTypePage = () => {
         <div className="flex justify-between">
           <h1 className="text-2xl font-bold">Service Type</h1>
           <Link
-            to="/add"
+            to="/service-type/add"
             className="px-4 py-2 bg-gold2 mx-2 my-2 text-white font-semibold text-sm"
           >
             Add New Service Type
@@ -83,7 +83,7 @@ const ServiceTypePage = () => {
                         </td> */}
                         <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                             <Link
-                                        to={`/update/${service.id}`}
+                                        to={`/service-type/update/${service.id}`}
                                         className="text-indigo-600 hover:text-indigo-900"
                                 >
                                 Detail

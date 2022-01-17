@@ -28,7 +28,7 @@ const UpdateServiceType = () => {
                 'Content-Type': 'application/json'
             }
         });
-        navigate("/");
+        navigate("/service-type");
     }
 
     return (
