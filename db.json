@@ -1,49 +1,49 @@
 {
   "service-type": [
     {
-        "name": "Patient",
-        "description": "Patient Service",
-        "id": 1
+      "name": "Patient",
+      "description": "Patient Service",
+      "id": 1
     }
   ],
-  "service":[
+  "service": [
     {
-        "service_type_id": "9f5fb9c7-b27b-46d4-8a1d-07767450cd5c",
-        "name": "Kesehatan dan SPA",
-        "description": "Layanan kesehatan SPA",
-        "id":1
+      "service_type_id": "9f5fb9c7-b27b-46d4-8a1d-07767450cd5c",
+      "name": "Kesehatan dan SPA",
+      "description": "Layanan kesehatan SPA",
+      "id": 1
     }
   ],
-  "profession":[
+  "profession": [
     {
-        "name": "Ato Sugiharto",
-        "id": 1
+      "name": "Doctor",
+      "id": 1
     }
   ],
-  "payment-method":[
+  "payment-method": [
     {
-        "name": "Virtual Account BCA",
-        "alias": "virtual-account-bca",
-        "description": "Payment with VA BCA",
-        "id":1
+      "name": "Virtual Account BCA",
+      "alias": "virtual-account-bca",
+      "description": "Payment with VA BCA",
+      "id": 1
     },
     {
       "name": "Virtual Account BNI",
       "alias": "virtual-account-bni",
       "description": "Payment with VA BNI",
-      "id":1
+      "id": 1
     }
   ],
   "patient-type": [
     {
-        "name": "Kerjasama",
-        "id": 1
+      "name": "Kerjasama",
+      "id": 1
     }
   ],
-  "drug-type":[
+  "drug-type": [
     {
-        "name": "Drug Type",
-        "id": 1
+      "name": "Drug Type",
+      "id": 1
     }
   ]
 }

@@ -40,57 +40,6 @@ function Login() {
         navigate("/");
     };
 
-    // const handleOTP = async(e) =>{
-    //     e.preventDefault();
-
-    //     const data = {
-    //         identity: email,
-    //         verification_pin: pin,
-    //         app: "sehatri"
-    //     };
-
-    //     console.log("Call API OTP");
-
-    //     const res = await fetch('https://37ad-125-167-56-245.ngrok.io/v2/register/verify', {
-    //         method: "POST",
-    //         headers: {
-    //             "Content-type": "application/json"
-    //         },
-    //         body: JSON.stringify(data)
-    //     })
-    //     const json = await res.json();
-    //     setToken(json.data)
-        
-    //     setStep(3);
-    // };
-
-    // const handleUpdateDetail = async(e
-      
-    //     ) =>{
-    //     e.preventDefault();
-
-    //     const data = {
-    //         email: email,
-    //         name: name,
-    //         phone_number: phone,
-    //         password: password
-    //     };
-
-    //     console.log("Call API Update Detail");
-
-    //     const res = await fetch('https://37ad-125-167-56-245.ngrok.io/v2/register/detail', {
-    //         method: "PUT",
-    //         headers: {
-    //             "Content-type": "application/json",
-    //             "Authorization": `Bearer ${token}`
-    //         },
-    //         body: JSON.stringify(data)
-    //     })
-    //     const json = await res.json();
-        
-    //     navigate("/login");
-    // };
-
     return (
         <div>
             <div className="min-h-screen bg-gold1 flex flex-col justify-center py-12 sm:px-6 lg:px-8">

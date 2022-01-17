@@ -26,7 +26,7 @@ const UpdateProfession = () => {
                 'Content-Type': 'application/json'
             }
         });
-        navigate("/profession-type");
+        navigate("/profession");
     }
 
     return (
